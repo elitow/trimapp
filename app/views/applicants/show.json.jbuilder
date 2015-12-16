@@ -1,1 +1,1 @@
-json.extract! @applicant, :id, :name, :email, :repo, :url, :using_best_practices_for_OOP, :modular_development, :full_stack_workflow_understand, :testing, :database_knowledge, :debugging, :problem_solving_skills, :javascript, :HTML, :CSS, :working_on_a_team, :self_motivation, :communication_skills, :created_at, :updated_at
+json.extract! @applicant, :id, :name, :email, :repo, :url, :skill1, :skill2, :skill3, :skill4, :skill5, :skill6, :skill7, :skill8, :skill9, :skill10, :skill11, :skill12, :skill13, :skill14, :skill15, :created_at, :updated_at

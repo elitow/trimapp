@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151216191009) do
+ActiveRecord::Schema.define(version: 20151216193444) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,21 +21,23 @@ ActiveRecord::Schema.define(version: 20151216191009) do
     t.string   "email"
     t.string   "repo"
     t.string   "url"
-    t.integer  "using_best_practices_for_OOP"
-    t.integer  "modular_development"
-    t.integer  "full_stack_workflow_understand"
-    t.integer  "testing"
-    t.integer  "database_knowledge"
-    t.integer  "debugging"
-    t.integer  "problem_solving_skills"
-    t.integer  "javascript"
-    t.integer  "HTML"
-    t.integer  "CSS"
-    t.integer  "working_on_a_team"
-    t.integer  "self_motivation"
-    t.integer  "communication_skills"
-    t.datetime "created_at",                     null: false
-    t.datetime "updated_at",                     null: false
+    t.integer  "skill1"
+    t.integer  "skill2"
+    t.integer  "skill3"
+    t.integer  "skill4"
+    t.integer  "skill5"
+    t.integer  "skill6"
+    t.integer  "skill7"
+    t.integer  "skill8"
+    t.integer  "skill9"
+    t.integer  "skill10"
+    t.integer  "skill11"
+    t.integer  "skill12"
+    t.integer  "skill13"
+    t.integer  "skill14"
+    t.integer  "skill15"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
