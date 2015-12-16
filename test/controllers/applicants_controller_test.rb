@@ -18,7 +18,7 @@ class ApplicantsControllerTest < ActionController::TestCase
 
   test "should create applicant" do
     assert_difference('Applicant.count') do
-      post :create, applicant: { email: @applicant.email, name: @applicant.name, repo: @applicant.repo, skill10: @applicant.skill10, skill11: @applicant.skill11, skill12: @applicant.skill12, skill13: @applicant.skill13, skill14: @applicant.skill14, skill15: @applicant.skill15, skill1: @applicant.skill1, skill2: @applicant.skill2, skill3: @applicant.skill3, skill4: @applicant.skill4, skill5: @applicant.skill5, skill6: @applicant.skill6, skill7: @applicant.skill7, skill8: @applicant.skill8, skill9: @applicant.skill9, url: @applicant.url }
+      post :create, applicant: { CSS: @applicant.CSS, HTML: @applicant.HTML, bestpract: @applicant.bestpract, communication: @applicant.communication, dbknowl: @applicant.dbknowl, debugging: @applicant.debugging, email: @applicant.email, fsworkflow: @applicant.fsworkflow, intelligence: @applicant.intelligence, javascript: @applicant.javascript, moddev: @applicant.moddev, motivation: @applicant.motivation, name: @applicant.name, psolving: @applicant.psolving, repo: @applicant.repo, team: @applicant.team, testing: @applicant.testing, url: @applicant.url }
     end
 
     assert_redirected_to applicant_path(assigns(:applicant))
@@ -35,7 +35,7 @@ class ApplicantsControllerTest < ActionController::TestCase
   end
 
   test "should update applicant" do
-    patch :update, id: @applicant, applicant: { email: @applicant.email, name: @applicant.name, repo: @applicant.repo, skill10: @applicant.skill10, skill11: @applicant.skill11, skill12: @applicant.skill12, skill13: @applicant.skill13, skill14: @applicant.skill14, skill15: @applicant.skill15, skill1: @applicant.skill1, skill2: @applicant.skill2, skill3: @applicant.skill3, skill4: @applicant.skill4, skill5: @applicant.skill5, skill6: @applicant.skill6, skill7: @applicant.skill7, skill8: @applicant.skill8, skill9: @applicant.skill9, url: @applicant.url }
+    patch :update, id: @applicant, applicant: { CSS: @applicant.CSS, HTML: @applicant.HTML, bestpract: @applicant.bestpract, communication: @applicant.communication, dbknowl: @applicant.dbknowl, debugging: @applicant.debugging, email: @applicant.email, fsworkflow: @applicant.fsworkflow, intelligence: @applicant.intelligence, javascript: @applicant.javascript, moddev: @applicant.moddev, motivation: @applicant.motivation, name: @applicant.name, psolving: @applicant.psolving, repo: @applicant.repo, team: @applicant.team, testing: @applicant.testing, url: @applicant.url }
     assert_redirected_to applicant_path(assigns(:applicant))
   end
 

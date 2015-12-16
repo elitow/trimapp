@@ -11,81 +11,79 @@
     </div>
   <% end %>
 
+  <div class="form">
   <div class="field">
-    <%= f.text_field :name, :placeholder => "NAME" %>
+    <%= f.text_field :name, :placeholder => "FULL NAME" %>
   </div>
   <div class="field">
     <%= f.text_field :email, :placeholder => "EMAIL" %>
   </div>
   <div class="field">
-    <%= f.text_field :repo , :placeholder => "PROJECT REPO" %>
+    <%= f.text_field :repo, :placeholder => "PROJECT REPO" %>
   </div>
   <div class="field">
     <%= f.text_field :url, :placeholder => "PROJECT URL" %>
   </div>
   <div class="skills">
   <div class="field">
-    <%= f.label :skill1, "USING BEST PRACTICES FOR OOP:" %><br>
-    <%= f.number_field :skill1 %>
+    <%= f.label :bestpract, "USING BEST PRACTICES:" %>
+    <%= f.number_field :bestpract %>
   </div>
   <div class="field">
-    <%= f.label :skill2, "MODULAR DEVELOPMENT:" %><br>
-    <%= f.number_field :skill2 %>
+    <%= f.label :moddev, "MODULAR DEVELOPMENT:" %>
+    <%= f.number_field :moddev %>
   </div>
   <div class="field">
-    <%= f.label :skill3, "FULL STACK WORKFLOW UNDERSTANDING:" %><br>
-    <%= f.number_field :skill3 %>
+    <%= f.label :fsworkflow, "FUll STACK WORKFLOW UNDERSTANDING:" %>
+    <%= f.number_field :fsworkflow %>
   </div>
   <div class="field">
-    <%= f.label :skill4, "TESTING:" %><br>
-    <%= f.number_field :skill4 %>
+    <%= f.label :testing, "TESTING:" %>
+    <%= f.number_field :testing %>
   </div>
   <div class="field">
-    <%= f.label :skill5, "DATABASE KNOWLEDGE:" %><br>
-    <%= f.number_field :skill5 %>
+    <%= f.label :dbknowl, "DATABASE KNOWLEDGE:" %>
+    <%= f.number_field :dbknowl %>
   </div>
   <div class="field">
-    <%= f.label :skill6, "DEBUGGING:" %><br>
-    <%= f.number_field :skill6 %>
+    <%= f.label :debugging, "DEBUGGING:" %>
+    <%= f.number_field :debugging %>
   </div>
   <div class="field">
-    <%= f.label :skill7, "PROBLEM SOLVING SKILLS:" %><br>
-    <%= f.number_field :skill7 %>
+    <%= f.label :psolving, "PROBLEM SOLVING SKILLS:" %>
+    <%= f.number_field :psolving %>
   </div>
   <div class="field">
-    <%= f.label :skill8, "JAVASCRIPT:" %><br>
-    <%= f.number_field :skill8 %>
+    <%= f.label :javascript, "JAVASCRIPT:" %>
+    <%= f.number_field :javascript %>
   </div>
   <div class="field">
-    <%= f.label :skill9, "HTML:"%><br>
-    <%= f.number_field :skill9 %>
+    <%= f.label :HTML, "HTML:" %>
+    <%= f.number_field :HTML %>
   </div>
   <div class="field">
-    <%= f.label :skill10, "CSS:" %><br>
-    <%= f.number_field :skill10 %>
+    <%= f.label :CSS, "CSS:" %>
+    <%= f.number_field :CSS %>
   </div>
   <div class="field">
-    <%= f.label :skill11, "WORKING ON A TEAM:" %><br>
-    <%= f.number_field :skill11 %>
+    <%= f.label :team, "WORKING ON A TEAM:" %>
+    <%= f.number_field :team %>
   </div>
   <div class="field">
-    <%= f.label :skill12, "SELF MOTIVATION:" %><br>
-    <%= f.number_field :skill12 %>
+    <%= f.label :motivation, "SELF MOTIVATION:" %>
+    <%= f.number_field :motivation %>
   </div>
   <div class="field">
-    <%= f.label :skill13, "COMMUNICATION SKILLS:" %><br>
-    <%= f.number_field :skill13 %>
+    <%= f.label :communication, "COMMUNICATION SKILLS:" %>
+    <%= f.number_field :communication %>
   </div>
   <div class="field">
-    <%= f.label :skill14, "YOUR OWN ENERGY LEVEL:"%><br>
-    <%= f.number_field :skill14 %>
-  </div>
-  <div class="field">
-    <%= f.label :skill15, "Intelligence:" %><br>
-    <%= f.number_field :skill15 %>
+    <%= f.label :intelligence, "INTELLIGENCE:" %>
+    <%= f.number_field :intelligence %>
   </div>
   </div>
   <div class="actions">
     <%= f.submit %>
+  </div>
   </div>
 <% end %>

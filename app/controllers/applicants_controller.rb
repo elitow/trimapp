@@ -69,6 +69,6 @@ class ApplicantsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def applicant_params
-      params.require(:applicant).permit(:name, :email, :repo, :url, :skill1, :skill2, :skill3, :skill4, :skill5, :skill6, :skill7, :skill8, :skill9, :skill10, :skill11, :skill12, :skill13, :skill14, :skill15)
+      params.require(:applicant).permit(:name, :email, :repo, :url, :bestpract, :moddev, :fsworkflow, :testing, :dbknowl, :debugging, :psolving, :javascript, :HTML, :CSS, :team, :motivation, :communication, :intelligence)
     end
 end

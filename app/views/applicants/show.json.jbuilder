@@ -1,1 +1,1 @@
-json.extract! @applicant, :id, :name, :email, :repo, :url, :skill1, :skill2, :skill3, :skill4, :skill5, :skill6, :skill7, :skill8, :skill9, :skill10, :skill11, :skill12, :skill13, :skill14, :skill15, :created_at, :updated_at
+json.extract! @applicant, :id, :name, :email, :repo, :url, :bestpract, :moddev, :fsworkflow, :testing, :dbknowl, :debugging, :psolving, :javascript, :HTML, :CSS, :team, :motivation, :communication, :intelligence, :created_at, :updated_at

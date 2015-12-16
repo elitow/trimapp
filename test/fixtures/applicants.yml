@@ -5,39 +5,37 @@ one:
   email: MyString
   repo: MyString
   url: MyString
-  skill1: 1
-  skill2: 1
-  skill3: 1
-  skill4: 1
-  skill5: 1
-  skill6: 1
-  skill7: 1
-  skill8: 1
-  skill9: 1
-  skill10: 1
-  skill11: 1
-  skill12: 1
-  skill13: 1
-  skill14: 1
-  skill15: 1
+  bestpract: 1
+  moddev: 1
+  fsworkflow: 1
+  testing: 1
+  dbknowl: 1
+  debugging: 1
+  psolving: 1
+  javascript: 1
+  HTML: 1
+  CSS: 1
+  team: 1
+  motivation: 1
+  communication: 1
+  intelligence: 1
 
 two:
   name: MyString
   email: MyString
   repo: MyString
   url: MyString
-  skill1: 1
-  skill2: 1
-  skill3: 1
-  skill4: 1
-  skill5: 1
-  skill6: 1
-  skill7: 1
-  skill8: 1
-  skill9: 1
-  skill10: 1
-  skill11: 1
-  skill12: 1
-  skill13: 1
-  skill14: 1
-  skill15: 1
+  bestpract: 1
+  moddev: 1
+  fsworkflow: 1
+  testing: 1
+  dbknowl: 1
+  debugging: 1
+  psolving: 1
+  javascript: 1
+  HTML: 1
+  CSS: 1
+  team: 1
+  motivation: 1
+  communication: 1
+  intelligence: 1
