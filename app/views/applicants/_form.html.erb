@@ -1,0 +1,85 @@
+<%= form_for(@applicant) do |f| %>
+  <% if @applicant.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@applicant.errors.count, "error") %> prohibited this applicant from being saved:</h2>
+
+      <ul>
+      <% @applicant.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :email %><br>
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :repo %><br>
+    <%= f.text_field :repo %>
+  </div>
+  <div class="field">
+    <%= f.label :url %><br>
+    <%= f.text_field :url %>
+  </div>
+  <div class="field">
+    <%= f.label :using_best_practices_for_OOP %><br>
+    <%= f.number_field :using_best_practices_for_OOP %>
+  </div>
+  <div class="field">
+    <%= f.label :modular_development %><br>
+    <%= f.number_field :modular_development %>
+  </div>
+  <div class="field">
+    <%= f.label :full_stack_workflow_understand %><br>
+    <%= f.number_field :full_stack_workflow_understand %>
+  </div>
+  <div class="field">
+    <%= f.label :testing %><br>
+    <%= f.number_field :testing %>
+  </div>
+  <div class="field">
+    <%= f.label :database_knowledge %><br>
+    <%= f.number_field :database_knowledge %>
+  </div>
+  <div class="field">
+    <%= f.label :debugging %><br>
+    <%= f.number_field :debugging %>
+  </div>
+  <div class="field">
+    <%= f.label :problem_solving_skills %><br>
+    <%= f.number_field :problem_solving_skills %>
+  </div>
+  <div class="field">
+    <%= f.label :javascript %><br>
+    <%= f.number_field :javascript %>
+  </div>
+  <div class="field">
+    <%= f.label :HTML %><br>
+    <%= f.number_field :HTML %>
+  </div>
+  <div class="field">
+    <%= f.label :CSS %><br>
+    <%= f.number_field :CSS %>
+  </div>
+  <div class="field">
+    <%= f.label :working_on_a_team %><br>
+    <%= f.number_field :working_on_a_team %>
+  </div>
+  <div class="field">
+    <%= f.label :self_motivation %><br>
+    <%= f.number_field :self_motivation %>
+  </div>
+  <div class="field">
+    <%= f.label :communication_skills %><br>
+    <%= f.number_field :communication_skills %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
