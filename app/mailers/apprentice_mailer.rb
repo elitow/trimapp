@@ -1,0 +1,2 @@
+class ApprenticeMailer < ApplicationMailer
+end
