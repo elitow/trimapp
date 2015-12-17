@@ -28,6 +28,7 @@ class ApplicantsController < ApplicationController
 
     respond_to do |format|
       if @applicant.save
+        ApprenticeMailer.survey_email(@applicant).deliver_now
         format.html { redirect_to @applicant, notice: 'Applicant was successfully created.' }
         format.json { render :show, status: :created, location: @applicant }
       else
