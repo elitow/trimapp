@@ -20,9 +20,9 @@
    src: url('/assets/MuseoSans_500.ttf') format('truetype');
  }
 
-body {
-  font-family: 'MuseoSans500';
-}
+ body {
+   font-family: 'MuseoSans500';
+ }
 
 
 
@@ -49,10 +49,6 @@ body {
    float: right;
    text-align: center;
    color: #27949D;
-
-
-
-
  }
 
  input#applicant_name {
@@ -79,8 +75,8 @@ body {
    letter-spacing: 2px;
  }
  ::-webkit-input-placeholder {
-    color: #27949D;
-    font-size: 13px;
+   color: #27949D;
+   font-size: 13px;
  }
 
  .skills {
@@ -89,22 +85,33 @@ body {
 
 
  input[type="submit"] {
-    width: 100%;
-    background-color: #F45B69;
-    color: #E6EED6;
-    border: 0,0,0,0;
-    height: 35px;
-}
+   width: 100%;
+   background-color: #F45B69;
+   color: #E6EED6;
+   border: 0,0,0,0;
+   height: 35px;
+ }
 
-label {
+ label {
+   align-content: stretch;
+   margin-right: 0.5em;
+   font-size: 14px;
+ }
 
- align-content: stretch;
- margin-right: 0.5em;
- font-size: 14px;
-}
+ .show {
+   color: #AEC8C3;
+   font-family: 'MuseoSans500';
+   text-align: center;
+ }
 
-.show {
-  color: #AEC8C3;
-  font-family: 'MuseoSans500';
-
-}
+ .confirmation {
+   color:  #AEC8C3;
+   text-align: center;
+   background-color: #456990;
+   margin-left: 25%;
+   margin-right: 25%;
+   margin-top: 15%;
+   padding-top: 10%;
+   padding-bottom: 10%;
+   font-size: 20px;
+ }
