@@ -14,23 +14,41 @@
  *= require_self
  */
 
+
+ @font-face {
+   font-family: 'MuseoSans500';
+   src: url('/assets/MuseoSans_500.ttf') format('truetype');
+ }
+
+body {
+  font-family: 'MuseoSans500';
+}
+
+
+
  .form {
    background-color: #456990;
-   margin-left: 30%;
-   margin-right: 30%;
-   padding: 3% 3% 3% 3%;
-   line-height: 50px;
+   margin-left: 22%;
+   margin-right: 22%;
+   padding: 4% 4% 6% 4%;
+   line-height: 60px;
+   letter-spacing: 2px;
  }
 
  .head {
    text-align: center;
+   color: #AEC8C3;
  }
 
  input {
+   font-family: 'MuseoSans500';
    background-color: #E4FDE1;
    height: 40px;
    width: 20%;
-   font-size: 15px;
+   font-size: 20px;
+   float: right;
+   text-align: center;
+
 
 
 
@@ -38,21 +56,30 @@
 
  input#applicant_name {
    width: 100%;
+   text-align: left;
+   letter-spacing: 2px;
  }
 
  input#applicant_email {
    width: 100%;
+   text-align: left;
+   letter-spacing: 2px;
  }
 
  input#applicant_repo {
    width: 100%;
+   text-align: left;
+   letter-spacing: 2px;
  }
 
  input#applicant_url {
    width: 100%;
+   text-align: left;
+   letter-spacing: 2px;
  }
  ::-webkit-input-placeholder {
     color: #7ABAB5;
+    font-size: 13px;
  }
 
  .skills {
@@ -72,5 +99,6 @@ label {
 
  align-content: stretch;
  margin-right: 0.5em;
+ font-size: 14px;
 
 }

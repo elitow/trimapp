@@ -2,50 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-// .form {
-//   background-color: #456990;
-//   margin-left: 30%;
-//   margin-right: 30%;
-//   padding: 3% 3% 3% 3%;
-//   line-height: 30px;
-// }
-//
-// .head {
-//   text-align: center;
-// }
-//
-// input {
-//   background-color: #E4FDE1;
-//   height: 25px;
-//   width: 20%;
-//
-//
-// }
-//
-// input#applicant_name {
-//   width: 100%;
-// }
-//
-// input#applicant_email {
-//   width: 100%;
-// }
-//
-// input#applicant_repo {
-//   width: 100%;
-// }
-//
-// input#applicant_url {
-//   width: 100%;
-// }
-// ::-webkit-input-placeholder {
-//    color: #7ABAB5;
-// }
-//
-// .skilltxt {
-//   color: #AEC8C3;
-// }
-//
-// .submitbtn {
-//   color: #F45B69;
-//   width: 100%;
-// }
+@font-face {
+  font-family: 'MuseoSans500';
+  src: url('/assets/MuseoSans_500.ttf') format('truetype');
+}
