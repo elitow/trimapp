@@ -1,5 +1,6 @@
-<p id="notice"><%= notice %></p>
+<!-- <p id="notice"><%= notice %></p> -->
 
+<div class="show">
 <p>
   <strong>Full Name:</strong>
   <%= @applicant.name %>
@@ -94,6 +95,6 @@
   <strong>Intelligence:</strong>
   <%= @applicant.intelligence %>
 </p>
+</div>
 
 <%= link_to 'Edit', edit_applicant_path(@applicant) %> |
-<%= link_to 'Back', applicants_path %>

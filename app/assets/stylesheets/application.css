@@ -48,6 +48,7 @@ body {
    font-size: 20px;
    float: right;
    text-align: center;
+   color: #27949D;
 
 
 
@@ -78,7 +79,7 @@ body {
    letter-spacing: 2px;
  }
  ::-webkit-input-placeholder {
-    color: #7ABAB5;
+    color: #27949D;
     font-size: 13px;
  }
 
@@ -100,5 +101,10 @@ label {
  align-content: stretch;
  margin-right: 0.5em;
  font-size: 14px;
+}
+
+.show {
+  color: #AEC8C3;
+  font-family: 'MuseoSans500';
 
 }
