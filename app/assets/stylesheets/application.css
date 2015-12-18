@@ -17,7 +17,7 @@
 
  @font-face {
    font-family: 'MuseoSans500';
-   src: url('/assets/MuseoSans_500.ttf') format('truetype');
+   src: url(/assets/MuseoSans_500.ttf) format('truetype');
  }
 
  body {
